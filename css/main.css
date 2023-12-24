@@ -83,6 +83,9 @@ main {
 
   z-index: 100;
 }
+.gdn.envelope::after {
+  content: "Gửi Gia Đình Nhỏ";
+}
 
 .flap {
   position: absolute;
