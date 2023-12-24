@@ -4,13 +4,25 @@
 body {
   margin: auto;
   /* typography */
-  font-family: "Tenor Sans", Arial, Helvetica, sans-serif;
-  line-height: 1.4;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
   background-image: url("../images/bg-desk.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sign-off {
+  font-family: "Oswald", Helvetica, Geneva, sans-serif;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
 body,
 main {
   overflow: hidden;
