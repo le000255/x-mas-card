@@ -80,11 +80,15 @@ main {
   bottom: 1em;
   left: 1.5em;
   transform: rotateY(180deg);
+  color: wheat;
 
   z-index: 100;
 }
 .gdn.envelope::after {
   content: "Gửi Gia Đình Nhỏ";
+}
+.gdsg.envelope::after {
+  content: "Gửi Nhà Mình";
 }
 
 .flap {
@@ -164,15 +168,17 @@ main {
     img {
       width: 100%;
     }
-    .heart {
+    /* .heart {
       color: red;
-    }
+    } */
     a {
       color: darkgreen;
     }
   }
 }
-
+.heart {
+  color: red;
+}
 .envelope {
   transition: 0.3s ease;
   transform-style: preserve-3d;
