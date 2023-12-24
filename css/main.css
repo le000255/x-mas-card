@@ -84,13 +84,21 @@ main {
 
   z-index: 100;
 }
+
+/* ----------------- RECEIVERS ---------------- */
 .gdn.envelope::after {
   content: "Gửi Gia Đình Nhỏ";
 }
 .gdsg.envelope::after {
   content: "Gửi Nhà Mình";
 }
-
+.ms-dao.envelope::after {
+  content: "Gửi Cô Đào";
+}
+.ms-lun.envelope::after {
+  content: "Gửi Cô Lùn";
+}
+/* -------------------------------------------- */
 .flap {
   position: absolute;
   transform-style: preserve-3d;
@@ -168,17 +176,15 @@ main {
     img {
       width: 100%;
     }
-    /* .heart {
+    .heart {
       color: red;
-    } */
+    }
     a {
       color: darkgreen;
     }
   }
 }
-.heart {
-  color: red;
-}
+
 .envelope {
   transition: 0.3s ease;
   transform-style: preserve-3d;
