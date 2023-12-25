@@ -98,6 +98,9 @@ main {
 .ms-lun.envelope::after {
   content: "Gửi Cô Lùn";
 }
+.ms-anh.envelope::after {
+  content: 'Gửi Chị Anh & Gia Đình';
+}
 /* -------------------------------------------- */
 .flap {
   position: absolute;
