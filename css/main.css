@@ -74,7 +74,9 @@ main {
 }
 .envelope::after {
   content: "TO: Receiver";
-
+/*   attempt to hide the content while flipping */
+  backface-visibility: hidden;
+  
   font-size: clamp(1.2rem, 2vw, 2rem);
   position: absolute;
   bottom: 1em;
