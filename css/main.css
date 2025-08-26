@@ -103,6 +103,9 @@ main {
 .ms-anh.envelope::after {
   content: 'Gửi Chị Anh & Gia Đình';
 }
+.demo.envelope::after {
+  content: 'Jane Doe';
+}
 /* -------------------------------------------- */
 .flap {
   position: absolute;
