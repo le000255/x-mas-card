@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- link thumbnails -->
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@xmas-card">
+  <meta name="twitter:creator" content="@EddieLe">
+  <meta name="twitter:title" content="Xmas card for you">
+  <meta name="twitter:description"
+    content="It's Eddie here - I hope you enjoy my Christmas card, made with ❤ by every line of code.">
+  <meta name="twitter:image" content="https://le000255.github.io/x-mas-card/images/thumbnails/card_twitter.png">
+
+  <!-- facebook -->
+  <title>Merry Christmas</title>
+  <meta property="og:title" content="A X'mas Card from Eddie ">
+  <meta property="og:description"
+    content="It's Eddie here - I hope you enjoy my Christmas card, made with ❤ by every line of code.">
+  <meta property="og:image" content="https://le000255.github.io/x-mas-card/images/thumbnails/card_facebook.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://le000255.github.io/x-mas-card">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Tenor+Sans&display=swap"
+    rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/main.css">
+  <title>Xmas Card</title>
+</head>
+
+<body>
+  <main>
+    <div class="wrapper__small-screen">
+      <div class="container__small-screen">
+        <div class="wrapper__sticky">
+          <img class="img-deco" src="images/letter-deco.jpg" alt="A Christmas tree with colourful baubles">
+        </div>
+        <div class="message__small-screen">
+          <p class="notice">This page can only fully function on large screen size (width &GreaterEqual; 900px).
+            Please
+            use a device with larger screen (or try landscape orientation if you're on a tablet).
+
+          </p>
+          <div id="msg-box" class="hide">
+            <h2>Dear Jane</h2>
+            <p>
+              Wishing you a wonderful and joyful Christmas, and a successful New Year To come.
+            </p>
+            <p>Cheers,</p>
+            <p>Eddie</p>
+          </div>
+        </div>
+        <button class="btn btn__ms-handler" type="button">Just skip to the message please</button>
+      </div>
+    </div> <!-- end: small screen-->
+
+    <div class="snow-animation">
+      <div class="background"></div>
+      <div class="snow__base snow"></div>
+      <div class="snow__base snow snow-2"></div>
+      <div class="snow__base snow__secondary"></div>
+      <div class="snow__base snow__secondary two"></div>
+      <div class="foreground"></div>
+    </div>
+    <div class="container">
+      <div id="envelope" class="envelope envelope__init" data-envelope="isClosed">
+        <div class="flap flap__left"></div>
+        <div class="flap flap__right"></div>
+        <div class="flap flap__bottom"></div>
+        <div class=" flap flap__top"></div>
+        <div id="letter" class="letter">
+          <div class="letter__image">
+            <img src="images/letter-deco.jpg" alt="A Christmas tree with colourful baubles" width="264">
+            <small>Made with <span class="heart">❤</span> by <a id="eddie" href="https://github.com/le000255"
+                target="_blank" rel="noopener noreferrer">Eddie</a>.</small>
+          </div>
+          <div class="letter__content">
+            <h2 class="letter__heading">Dear Jane</h2>
+            <p class="letter__body">
+              Wishing you a wonderful and joyful Christmas, and a successful New Year To come.
+            </p>
+            <div class="letter__sign-off">
+              <p>
+                Cheers,
+              </p>
+              <p>
+                Eddie
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
